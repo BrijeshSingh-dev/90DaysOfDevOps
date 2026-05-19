@@ -27,12 +27,12 @@
 # How you will stay consistent every single day?
  My main motivation is continuous growth — both technically and professionally. I enjoy problem-solving, learning new technologies, and understanding how systems work behind the scenes. DevOps and Cloud Engineering give me the opportunity to work on automation, CI/CD, cloud infrastructure, monitoring, and scalable solutions, which genuinely excites me.
 
- My Main Reasons:
- 📈 Better career growth
- 💰 High-paying opportunities
- 🌐 Remote job opportunities
- 🤖 Love for automation and problem solving
- ☁️ Passion for Cloud technologies
- 🚀 Goal to become a DevOps Engineer / Cloud Engineer / SRE / Platform Engineer
+ 🎯 My Main Reasons:
+ - 📈 Better career growth
+ - 💰 High-paying opportunities
+ - 🌐 Remote job opportunities
+ - 🤖 Love for automation and problem solving
+ - ☁️ Passion for Cloud technologies
+ - 🚀 Goal to become a DevOps Engineer / Cloud Engineer / SRE / Platform Engineer
  
  I believe my previous professional experience combined with modern DevOps & Cloud skills will help me build a strong and future-ready career in the IT industry.
