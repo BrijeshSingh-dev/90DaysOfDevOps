@@ -1,118 +1,71 @@
-# Linux Architecture Notes
+# Day 02 – Linux Architecture and Process Management 🚀
 
-## Linux Core Components
+## Core Components of Linux
 
-### 1. Kernel
-The kernel is the core of Linux.
+  ### 1. Kernel
+  The Kernel is the heart of the Linux operating system. It directly communicates with the hardware and manages system resources.
 
-Responsibilities:
-- process management
-- memory management
-- hardware communication
-- filesystem management
+  Responsibilities:
+  - Process management
+  - Memory management
+  - Device management
+  - File system management
+  - CPU scheduling
+  - Hardware communication
+  - Security and access control
 
----
+  Examples:
+  - Managing RAM usage
+  - Controlling CPU tasks
+  - Interacting with devices like keyboard, disk, and network cards
 
-### 2. Shell
-The shell acts as the communication layer between user and kernel.
+  ---
 
-Examples:
-- bash
-- zsh
-- sh
+  ### 2. Shell
+  User Space is the environment where users interact with the system and applications run.
 
-Example command:
+  Responsibilities:
+  * Running user applications
+  * Executing shell commands
+  * Providing user interaction
+  * Handling software utilities and services
+  * Communicating with the kernel through system calls
 
-```bash
-echo "Hello Dosto"
-```
+  Examples:
+  * Bash shell
+  * Python applications
+  * Browsers
+  * Text editors
 
----
+  ---
+  ### 3. Init / systemd
+  `init` or `systemd` is the first process that starts during the Linux boot process. Modern Linux distributions mainly use `systemd`.
 
-### 3. Applications
-Applications run on top of Linux.
+  Responsibilities:
 
-Examples:
-- Docker
-- Kubernetes
-- Jenkins
-- Nginx
+  * Initializing the operating system during boot
+  * Starting and stopping services
+  * Managing background processes (daemons)
+  * Monitoring system services
+  * Maintaining logs and service status
+  * Handling system shutdown and restart processes
 
----
+### Common Commands:
 
-# Linux Boot Process
+  ```bash id="i11j70"
+  systemctl start nginx
+  systemctl stop docker
+  systemctl status ssh
+  ```
+  
+  ---
 
-```text
-Power ON
-→ BIOS/Firmware
-→ Bootloader
-→ Kernel
-→ systemd
-→ Applications
-```
+# Simple Summary
 
----
-
-# systemd
-
-Important points:
-- PID 1 process
-- manages services
-- controls startup
-- manages logs
-- handles service restarts
-
-Useful command:
-
-```bash
-systemctl status ssh
-```
-
----
-
-# Process States
-
-| State | Meaning |
-|---|---|
-| R | Running |
-| S | Sleeping |
-| T | Stopped |
-| Z | Zombie |
+| Component    | Main Responsibility                   |
+| ------------ | ------------------------------------- |
+| Kernel       | Manages hardware and system resources |
+| User Space   | Runs applications and user processes  |
+| systemd/init | Manages system startup and services   |
 
 ---
-
-# Important Commands
-
-## Process Monitoring
-
-```bash
-ps aux
-top
-```
-
-## Resource Monitoring
-
-```bash
-df -h
-free -h
-```
-
-## Networking
-
-```bash
-ip a
-```
-
----
-
-# Key Understanding
-
-Linux is the foundation of most modern DevOps and cloud environments.
-
-Understanding:
-- processes
-- services
-- logs
-- system resources
-
-is essential for troubleshooting and production operations.
