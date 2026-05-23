@@ -1,14 +1,13 @@
-## Day 01 – Introduction to DevOps and Cloud
+# Day 01 – Introduction to DevOps and Cloud
 
-## Task
-# What is your understanding of DevOps and Cloud Engineering?
+## What is your understanding of DevOps and Cloud Engineering?
  DevOps is a practice that combines development and operations to automate software building, testing, deployment, and monitoring processes, ensuring faster and more reliable delivery. It focuses on CI/CD, automation, and collaboration.
 
  Cloud Engineering, on the other hand, involves designing, deploying, and managing scalable infrastructure on cloud platforms like AWS, Azure, or GCP. It includes resource provisioning, security, scalability, and cost optimization.
 
  In simple terms, DevOps improves the software delivery lifecycle, while Cloud Engineering provides the infrastructure where applications run efficiently.
 
-# Why I am starting learning DevOps & Cloud?
+## Why I am starting learning DevOps & Cloud?
  With 10 years of experience in Market Research and Survey Programming, I have worked extensively on managing survey applications, handling data workflows, troubleshooting production issues, coordinating deployments, and ensuring smooth delivery for clients. Over time, I realized that modern technology is rapidly moving toward automation, cloud infrastructure, and faster software delivery processes.
 
  That is the reason I started learning DevOps and Cloud technologies.
@@ -17,7 +16,7 @@
 
  Learning DevOps & Cloud is my step toward continuous growth, automation, scalability, and becoming a future-ready technology professional.
 
-# Where do you want to reach?
+## Where do you want to reach?
  My goal is to become a strong DevOps & Cloud Engineer who can build scalable, automated, and reliable infrastructure solutions.
 
  After 10 years in Market Research & Survey Programming, I am upgrading my skills toward Cloud, Automation, CI/CD, Docker, Kubernetes, and AWS to stay aligned with modern technology trends and create greater impact in the IT industry.
